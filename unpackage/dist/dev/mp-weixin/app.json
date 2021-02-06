@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/Home/index",
+    "pages/Profile/index",
+    "pages/Send/index",
+    "pages/Home/receive",
+    "pages/Home/redEnvelope",
+    "pages/Profile/member",
+    "pages/Profile/postTask",
+    "pages/Profile/myTask",
+    "pages/Profile/taskDetail",
+    "pages/Profile/accept",
+    "pages/Profile/proxy",
+    "pages/Profile/myTeam",
+    "pages/Profile/coupon",
+    "pages/Profile/launch-event",
+    "pages/Profile/merchant",
+    "pages/Profile/eventManage",
+    "pages/Profile/setUp/index",
+    "pages/Profile/setUp/bindPhone",
+    "pages/Profile/setUp/verified",
+    "pages/Profile/agency/agencyTeam",
+    "pages/Profile/agency/agencyPlayers",
+    "pages/Profile/agency/agencyCount",
+    "pages/Profile/smallChange/detailed",
+    "pages/Profile/smallChange/withdraw",
+    "pages/Profile/login",
+    "pages/Home/textShow",
+    "pages/Home/webview"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "任务悬赏",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#F2332A",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/Home/index",
+        "iconPath": "static/TabBar/home.png",
+        "selectedIconPath": "static/TabBar/home-active.png"
+      },
+      {
+        "pagePath": "pages/Send/index",
+        "iconPath": "static/TabBar/send.png",
+        "selectedIconPath": "static/TabBar/send-active.png"
+      },
+      {
+        "pagePath": "pages/Profile/index",
+        "iconPath": "static/TabBar/profile.png",
+        "selectedIconPath": "static/TabBar/profile-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap84.json"
+}

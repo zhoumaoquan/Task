@@ -1,0 +1,140 @@
+.container {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	font-family: PingFang SC;
+}
+::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+button {
+	padding: 0;
+	line-height: 1;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+button::after {
+	border: none;
+}
+.task-tag-1,
+.task-tag-2,
+.task-tag-3 {
+	
+}
+.task-tag-1 {
+	color: #FA771E;
+	border: 2rpx solid #FA771E;
+}
+.task-tag-2 {
+	color: #ED4015;
+	border: 2rpx solid #ED4015;
+}
+.task-tag-3 {
+	color: #2588E6;
+	border: 2rpx solid #2588E6;
+}
+.defalut-btn {
+	background: linear-gradient(90deg, #F64D36 0%, #FFAE00 100%);
+	border-radius: 30rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;
+}
+
+.Title-line {
+	width: 8rpx;
+	height: 36rpx;
+	border-radius: 4rpx;
+	background: linear-gradient(180deg, #F64D36 0%, #FFAE00 100%);
+	margin-right: 10rpx;
+}
+.Title-text {
+	font-size: 38rpx;
+	color: #333333;
+	font-weight: bold;
+}
+
+.popup-model {
+	width: 500rpx;
+	height: 300rpx;
+	background-color: #FFFFFF;
+	@include box(30rpx 40rpx 30rpx 40rpx);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	&-title {
+		width: 100%;
+		font-size: 30rpx;
+		color: #333333;
+		text-align: center;
+	}
+	&-context {
+		font-size: 26rpx;
+		color: #333333;
+		font-weight: 400;
+		text-align: center;
+	}
+	&-btn {
+		width: 100%;
+		@include flex-al-ju(space-between);
+		.btn-item {
+			width: 200rpx;
+			height: 60rpx;
+			border-radius: 30rpx;
+		}
+		.defalut-btn {
+			font-size: 24rpx;
+		}
+		.btn-close {
+			@include flex-center();
+			background-color: #E5E5E5;
+			font-size: 24rpx;
+			color: #333333;
+		}
+	}
+	&-define {
+		width: 100%;
+		height: 60rpx;
+		@include flex-center();
+	}
+}
+
+.color-1 {
+	background-color: #FA771E;
+	color: #fff;
+}
+.color-2 {
+	background-color: #18BE6B;
+	color: #fff;
+}
+.color-3 {
+	background-color: #2D8CF0;
+	color: #fff;
+}
+.color-4 {
+	background-color: #999999;
+	color: #fff;
+}
+.color-5 {
+	background-color: #ED4015;
+	color: #fff;
+}
+.color-6 {
+	background-color: #333;
+	color: #fff;
+}
+
+.app-skeleton {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	background-color: #e5e5e5;
+}

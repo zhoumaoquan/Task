@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-top-tips": "/uview-ui/components/u-top-tips/u-top-tips",
+    "task-item": "/component/TaskItem",
+    "task-activity": "/component/TaskActivity",
+    "z-empty": "/component/Z-empty"
+  }
+}

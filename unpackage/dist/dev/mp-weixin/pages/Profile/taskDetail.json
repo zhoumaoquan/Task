@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "悬赏详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "z-empty": "/component/Z-empty"
+  }
+}

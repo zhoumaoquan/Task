@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的团队",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "z-empty": "/component/Z-empty"
+  }
+}

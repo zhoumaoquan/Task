@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的红包/券",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "task-activity": "/component/TaskActivity",
+    "z-empty": "/component/Z-empty"
+  }
+}

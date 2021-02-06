@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我领取的悬赏任务",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "task-accept": "/component/TaskAccept",
+    "z-empty": "/component/Z-empty"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的团队",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "z-empty": "/component/Z-empty"
+  }
+}
